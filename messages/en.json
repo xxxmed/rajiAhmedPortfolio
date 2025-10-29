@@ -1,0 +1,61 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Hello, I'm {name}",
+    "subtitle": "Passionate Full Stack developer crafting great web experiences.",
+    "viewProjects": "View my projects",
+    "downloadCv": "Download CV",
+    "imageAlt": "Ahmed - Full Stack Developer",
+    "badgeTitle": "Developer",
+    "badgeSubtitle": "Full Stack"
+  },
+  "Footer": {
+    "copyright": "All rights reserved",
+    "tagline": "Passionate Full Stack developer crafting great web experiences.",
+    "quickLinks": "Quick links",
+    "links": {
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email: {value}",
+      "phone": "Phone: {value}"
+    }
+  },
+  "Projects": {
+    "viewProject": "View project",
+    "sourceCode": "Source code"
+  },
+  "Pages": {
+    "about": {
+      "title": "About me",
+      "body": "Passionate developer with expertise in full-stack development..."
+    },
+    "projects": {
+      "title": "My Projects"
+    },
+    "skills": {
+      "title": "My Skills"
+    },
+    "contact": {
+      "title": "Contact me",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Send"
+      }
+    }
+  }
+}
+
+

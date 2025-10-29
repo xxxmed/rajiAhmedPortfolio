@@ -1,0 +1,61 @@
+{
+  "Navbar": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Bonjour, je suis {name}",
+    "subtitle": "Développeur Full Stack passionné créant de superbes expériences web.",
+    "viewProjects": "Voir mes projets",
+    "downloadCv": "Télécharger le CV",
+    "imageAlt": "Ahmed - Développeur Full Stack",
+    "badgeTitle": "Développeur",
+    "badgeSubtitle": "Full Stack"
+  },
+  "Footer": {
+    "copyright": "Tous droits réservés",
+    "tagline": "Développeur Full Stack passionné créant de superbes expériences web.",
+    "quickLinks": "Liens rapides",
+    "links": {
+      "about": "À propos",
+      "projects": "Projets",
+      "skills": "Compétences",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email : {value}",
+      "phone": "Téléphone : {value}"
+    }
+  },
+  "Projects": {
+    "viewProject": "Voir le projet",
+    "sourceCode": "Code source"
+  },
+  "Pages": {
+    "about": {
+      "title": "À propos de moi",
+      "body": "Développeur passionné avec une expertise en développement full‑stack..."
+    },
+    "projects": {
+      "title": "Mes Projets"
+    },
+    "skills": {
+      "title": "Mes Compétences"
+    },
+    "contact": {
+      "title": "Contactez‑moi",
+      "form": {
+        "name": "Nom",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Envoyer"
+      }
+    }
+  }
+}
+
+

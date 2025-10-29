@@ -86,14 +86,14 @@ export const skills = [
 
 // Informations personnelles
 export const personalInfo = {
-  name: "Ahmed",
+  name: "Ahmed Raji",
   title: "Développeur Full Stack",
   email: "ahmed@example.com",
-  phone: "+33 6 XX XX XX XX",
-  location: "France",
+  phone: "+212 605 47 94 18",
+  location: "Rabat,Morocco",
   bio: "Développeur passionné avec une expertise en développement full-stack. J'aime créer des solutions innovantes et performantes qui améliorent l'expérience utilisateur.",
   socialLinks: {
-    github: "https://github.com/ahmed",
+    github: "https://github.com/xxxmed",
     linkedin: "https://linkedin.com/in/ahmed",
     twitter: "https://twitter.com/ahmed"
   }

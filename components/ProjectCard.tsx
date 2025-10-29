@@ -1,4 +1,4 @@
-import React from 'react'
+import {useTranslations} from 'next-intl'
 import Card from './ui/Card'
 import Button from './ui/Button'
 import Image from 'next/image'
@@ -17,6 +17,7 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
+  const t = useTranslations('Projects')
   return (
     <Card hover className="h-full">
       <div className="relative mb-4">
@@ -51,12 +52,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <div className="flex gap-2">
         {project.liveUrl && (
           <Button size="sm" className="flex-1">
-            Voir le projet
+            {t('viewProject')}
           </Button>
         )}
         {project.githubUrl && (
           <Button variant="outline" size="sm" className="flex-1">
-            Code source
+            {t('sourceCode')}
           </Button>
         )}
       </div>

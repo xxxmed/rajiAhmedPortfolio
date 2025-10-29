@@ -1,0 +1,61 @@
+{
+  "Navbar": {
+    "home": "الرئيسية",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "about": "نبذة",
+    "contact": "تواصل"
+  },
+  "Hero": {
+    "title": "مرحباً، أنا {name}",
+    "subtitle": "مطور الواجهة والخلفية شغوف بصناعة تجارب ويب مميزة.",
+    "viewProjects": "استعرض مشاريعي",
+    "downloadCv": "تحميل السيرة الذاتية",
+    "imageAlt": "أحمد - مطور Full Stack",
+    "badgeTitle": "مطور",
+    "badgeSubtitle": "فل ستاك"
+  },
+  "Footer": {
+    "copyright": "جميع الحقوق محفوظة",
+    "tagline": "مطور فل ستاك شغوف بصناعة تجارب ويب رائعة.",
+    "quickLinks": "روابط سريعة",
+    "links": {
+      "about": "نبذة",
+      "projects": "المشاريع",
+      "skills": "المهارات",
+      "contact": "تواصل"
+    },
+    "contact": {
+      "title": "تواصل",
+      "email": "البريد: {value}",
+      "phone": "الهاتف: {value}"
+    }
+  },
+  "Projects": {
+    "viewProject": "عرض المشروع",
+    "sourceCode": "الكود المصدري"
+  },
+  "Pages": {
+    "about": {
+      "title": "نبذة عني",
+      "body": "مطور شغوف ذو خبرة في تطوير تطبيقات الويب كاملة..."
+    },
+    "projects": {
+      "title": "مشاريعي"
+    },
+    "skills": {
+      "title": "مهاراتي"
+    },
+    "contact": {
+      "title": "تواصل معي",
+      "form": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "message": "الرسالة",
+        "submit": "إرسال"
+      }
+    }
+  }
+}
+
+
