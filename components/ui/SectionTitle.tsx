@@ -1,6 +1,7 @@
+import { ReactNode } from 'react'
 
 interface SectionTitleProps {
-  title: string
+  title: string | ReactNode
   subtitle?: string
   className?: string
 }

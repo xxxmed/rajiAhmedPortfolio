@@ -52,4 +52,20 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+/* Styles pour les icônes SVG */
+svg {
+  display: inline-block;
+  vertical-align: middle;
+  shape-rendering: auto;
+}
+
+/* Force l'affichage des icônes react-icons */
+.react-icons {
+  display: inline-block !important;
+  width: 1em !important;
+  height: 1em !important;
+  fill: currentColor !important;
+  vertical-align: middle;
+}
+
 

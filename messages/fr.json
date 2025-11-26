@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "Hero": {
-    "title": "Bonjour, je suis {name}",
+    "title": "Bonjour, je suis Ahmed Raji",
     "subtitle": "Développeur Full Stack passionné créant de superbes expériences web.",
     "viewProjects": "Voir mes projets",
     "downloadCv": "Télécharger le CV",
@@ -16,6 +16,7 @@
     "badgeSubtitle": "Full Stack"
   },
   "Footer": {
+    "name": "Ahmed Raji",
     "copyright": "Tous droits réservés",
     "tagline": "Développeur Full Stack passionné créant de superbes expériences web.",
     "quickLinks": "Liens rapides",
@@ -38,21 +39,107 @@
   "Pages": {
     "about": {
       "title": "À propos de moi",
-      "body": "Développeur passionné avec une expertise en développement full‑stack..."
+      "body": "Développeur passionné avec une expertise en développement full‑stack...",
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Localisation",
+      "socialLinks": "Réseaux Sociaux"
     },
     "projects": {
-      "title": "Mes Projets"
+      "title": "Mes Projets",
+      "body": "Voici quelques-uns de mes projets récents...",
+      "subtitle": "Découvrez mes projets et réalisations récentes"
     },
     "skills": {
-      "title": "Mes Compétences"
+      "title": "Mes Compétences",
+      "subtitle": "Mes compétences techniques et mon niveau d'expertise"
     },
     "contact": {
       "title": "Contactez‑moi",
+      "subtitle": "Envoyez-moi un message et je vous répondrai dans les plus brefs délais",
+      "infoTitle": "Informations de Contact",
+      "socialTitle": "Réseaux Sociaux",
+      "formTitle": "Envoyez-moi un message",
+      "namePlaceholder": "Votre nom complet",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "messagePlaceholder": "Écrivez votre message ici...",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "successMessage": "Merci ! Votre message a été envoyé avec succès.",
+      "error": "Erreur lors de l'envoi",
+      "errorMessage": "Une erreur s'est produite. Veuillez réessayer.",
       "form": {
         "name": "Nom",
         "email": "Email",
         "message": "Message",
         "submit": "Envoyer"
+      }
+    },
+    "sections": {
+      "experience": {
+        "title": "Expérience Professionnelle",
+        "subtitle": "Mon parcours professionnel et mes réalisations"
+      },
+      "education": {
+        "title": "Formation",
+        "subtitle": "Mon parcours académique et mes qualifications"
+      }
+    }
+  },
+  "Data": {
+    "projects": {
+      "dataWarehouse": {
+        "title": "Entrepôt de Données - Analyse Bancaire",
+        "description": "Construction d'un entrepôt de données avec PostgreSQL pour analyser les avis clients des agences bancaires au Maroc. Mise en œuvre de processus ETL avec DBT et utilisation de l'API Google Maps pour extraire les données géolocalisées."
+      },
+      "medicalPlatform": {
+        "title": "Plateforme d'Analyse Médicale",
+        "description": "Plateforme d'analyse de dossiers médicaux en temps réel avec Spring Boot, Hibernate et MySQL. Intégration de Kafka pour les alertes automatiques et WebSocket pour les notifications en temps réel."
+      }
+    },
+    "skills": {
+      "categories": {
+        "erp": "ERP",
+        "backend": "Développement Backend",
+        "frontend": "Développement Frontend",
+        "database": "Base de données",
+        "devops": "DevOps & Outils",
+        "testing": "Tests & Qualité",
+        "dataScience": "Data Science & IA",
+        "modeling": "Modélisation"
+      }
+    },
+    "personalInfo": {
+      "name": "Ahmed Raji",
+      "title": "Ingénieur Data & Software Engineering",
+      "bio": "Étudiant ingénieur à l'INSEA spécialisé en Data et Software Engineering. Passionné par le développement backend, l'analyse de données et l'intelligence artificielle. Expérience en Node.js, Java, Python et technologies cloud."
+    },
+    "experiences": {
+      "backend": {
+        "title": "Développeur Backend",
+        "company": "GhaythApp",
+        "period": "Août 2025 - Octobre 2025",
+        "description": "Développement et maintenance d'une plateforme web avec Node.js et Express.js. Mise en place de tests automatisés, développement de nouvelles fonctionnalités (paiements en ligne, tableaux de bord), et configuration CI/CD avec GitHub Actions. Optimisation MongoDB et amélioration des performances backend."
+      },
+      "dataIA": {
+        "title": "Stagiaire Data/IA",
+        "company": "3D Smart Factory",
+        "period": "Juillet 2025 - Août 2025",
+        "description": "Développement d'un pipeline de prétraitement 3D (NIfTI) configurable via YAML. Entraînement et évaluation d'un modèle UNet 3D avec PyTorch. Optimisation du code et structuration des datasets pour améliorer la reproductibilité."
+      }
+    },
+    "education": {
+      "insea": {
+        "degree": "Diplôme d'Ingénieur d'État",
+        "school": "INSEA, Rabat",
+        "period": "Sept 2023 - Présent",
+        "description": "Data and Software Engineering - Formation en développement logiciel, analyse de données, intelligence artificielle et ingénierie des systèmes."
+      },
+      "fst": {
+        "degree": "DEUST",
+        "school": "FST Al Hoceima",
+        "period": "Sept 2021 - 2023",
+        "description": "Mathématiques, Informatique & Physique - Mention Très Bien. Formation fondamentale en sciences et informatique."
       }
     }
   }

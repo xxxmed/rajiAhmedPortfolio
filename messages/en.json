@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "Hero": {
-    "title": "Hello, I'm {name}",
+    "title": "Hello, I'm Ahmed Raji",
     "subtitle": "Passionate Full Stack developer crafting great web experiences.",
     "viewProjects": "View my projects",
     "downloadCv": "Download CV",
@@ -16,6 +16,7 @@
     "badgeSubtitle": "Full Stack"
   },
   "Footer": {
+    "name": "Ahmed Raji",
     "copyright": "All rights reserved",
     "tagline": "Passionate Full Stack developer crafting great web experiences.",
     "quickLinks": "Quick links",
@@ -38,21 +39,107 @@
   "Pages": {
     "about": {
       "title": "About me",
-      "body": "Passionate developer with expertise in full-stack development..."
+      "body": "Passionate developer with expertise in full-stack development...",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "socialLinks": "Social Networks"
     },
     "projects": {
-      "title": "My Projects"
+      "body": "Here are some of my recent projects...",
+      "title": "My Projects",
+      "subtitle": "Discover my projects and recent achievements"
     },
     "skills": {
-      "title": "My Skills"
+      "title": "My Skills",
+      "subtitle": "My technical skills and level of expertise"
     },
     "contact": {
       "title": "Contact me",
+      "subtitle": "Send me a message and I will reply as soon as possible",
+      "infoTitle": "Contact Information",
+      "socialTitle": "Social Networks",
+      "formTitle": "Send me a message",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "your.email@example.com",
+      "messagePlaceholder": "Write your message here...",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "successMessage": "Thank you! Your message has been sent successfully.",
+      "error": "Error sending",
+      "errorMessage": "An error occurred. Please try again.",
       "form": {
         "name": "Name",
         "email": "Email",
         "message": "Message",
         "submit": "Send"
+      }
+    },
+    "sections": {
+      "experience": {
+        "title": "Professional Experience",
+        "subtitle": "My career path and achievements"
+      },
+      "education": {
+        "title": "Education",
+        "subtitle": "My academic background and qualifications"
+      }
+    }
+  },
+  "Data": {
+    "projects": {
+      "dataWarehouse": {
+        "title": "Data Warehouse - Banking Analysis",
+        "description": "Building a data warehouse with PostgreSQL to analyze customer reviews of bank branches in Morocco. Implementation of ETL processes with DBT and use of Google Maps API to extract geolocated data."
+      },
+      "medicalPlatform": {
+        "title": "Medical Analysis Platform",
+        "description": "Real-time medical records analysis platform with Spring Boot, Hibernate and MySQL. Integration of Kafka for automatic alerts and WebSocket for real-time notifications."
+      }
+    },
+    "skills": {
+      "categories": {
+        "erp": "ERP",
+        "backend": "Backend Development",
+        "frontend": "Frontend Development",
+        "database": "Database",
+        "devops": "DevOps & Tools",
+        "testing": "Testing & Quality",
+        "dataScience": "Data Science & AI",
+        "modeling": "Modeling"
+      }
+    },
+    "personalInfo": {
+      "name": "Ahmed Raji",
+      "title": "Data & Software Engineering Student",
+      "bio": "Engineering student at INSEA specializing in Data and Software Engineering. Passionate about backend development, data analysis and artificial intelligence. Experience in Node.js, Java, Python and cloud technologies."
+    },
+    "experiences": {
+      "backend": {
+        "title": "Backend Developer",
+        "company": "GhaythApp",
+        "period": "August 2025 - October 2025",
+        "description": "Development and maintenance of a web platform with Node.js and Express.js. Implementation of automated tests, development of new features (online payments, dashboards), and CI/CD configuration with GitHub Actions. MongoDB optimization and backend performance improvement."
+      },
+      "dataIA": {
+        "title": "Data/AI Intern",
+        "company": "3D Smart Factory",
+        "period": "July 2025 - August 2025",
+        "description": "Development of a 3D preprocessing pipeline (NIfTI) configurable via YAML. Training and evaluation of a UNet 3D model with PyTorch. Code optimization and dataset structuring to improve reproducibility."
+      }
+    },
+    "education": {
+      "insea": {
+        "degree": "State Engineering Degree",
+        "school": "INSEA, Rabat",
+        "period": "Sept 2023 - Present",
+        "description": "Data and Software Engineering - Training in software development, data analysis, artificial intelligence and systems engineering."
+      },
+      "fst": {
+        "degree": "DEUST",
+        "school": "FST Al Hoceima",
+        "period": "Sept 2021 - 2023",
+        "description": "Mathematics, Computer Science & Physics - Honors (Mention Très Bien). Fundamental training in science and computer science."
       }
     }
   }

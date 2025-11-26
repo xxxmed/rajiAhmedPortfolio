@@ -4,8 +4,8 @@ import Button from './ui/Button'
 import Image from 'next/image'
 
 interface Project {
-  title: string
-  description: string
+  titleKey: string
+  descriptionKey: string
   image: string
   technologies: string[]
   githubUrl?: string
@@ -17,13 +17,13 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
-  const t = useTranslations('Projects')
+  const t = useTranslations()
   return (
     <Card hover className="h-full">
       <div className="relative mb-4">
         <Image
           src={project.image}
-          alt={project.title}
+          alt={t(project.titleKey)}
           width={400}
           height={250}
           className="w-full h-48 object-cover rounded-lg"
@@ -31,11 +31,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
       
       <h3 className="text-xl font-bold text-gray-900 mb-2">
-        {project.title}
+        {t(project.titleKey)}
       </h3>
       
       <p className="text-gray-600 mb-4 line-clamp-3">
-        {project.description}
+        {t(project.descriptionKey)}
       </p>
       
       <div className="flex flex-wrap gap-2 mb-4">
@@ -52,12 +52,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <div className="flex gap-2">
         {project.liveUrl && (
           <Button size="sm" className="flex-1">
-            {t('viewProject')}
+            {t('Projects.viewProject')}
           </Button>
         )}
         {project.githubUrl && (
           <Button variant="outline" size="sm" className="flex-1">
-            {t('sourceCode')}
+            {t('Projects.sourceCode')}
           </Button>
         )}
       </div>

@@ -7,7 +7,7 @@ interface CardProps {
 }
 
 export default function Card({ children, className = '', hover = false }: CardProps) {
-  const baseClasses = 'bg-white rounded-lg shadow-md p-6'
+  const baseClasses = 'bg-white rounded-xl shadow-md p-8'
   const hoverClasses = hover ? 'card-hover' : ''
   
   return (

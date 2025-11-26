@@ -1,141 +1,152 @@
-// Données des projets
+// Données des projets (structure uniquement, les textes viendront des traductions)
 export const projects = [
   {
-    title: "E-commerce Platform",
-    description: "Plateforme e-commerce complète avec gestion des commandes, paiements sécurisés et interface d'administration.",
+    titleKey: "Data.projects.dataWarehouse.title",
+    descriptionKey: "Data.projects.dataWarehouse.description",
     image: "/images/project1.png",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    githubUrl: "https://github.com/ahmed/ecommerce",
-    liveUrl: "https://ecommerce-demo.com"
+    technologies: ["PostgreSQL", "DBT", "Google Maps API", "ETL"],
+    githubUrl: "https://github.com/xxxmed",
+    liveUrl: ""
   },
   {
-    title: "Application de Gestion",
-    description: "Application web de gestion d'entreprise avec tableau de bord interactif et rapports en temps réel.",
+    titleKey: "Data.projects.medicalPlatform.title",
+    descriptionKey: "Data.projects.medicalPlatform.description",
     image: "/images/project2.png",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-    githubUrl: "https://github.com/ahmed/management-app",
-    liveUrl: "https://management-demo.com"
-  },
-  {
-    title: "API REST",
-    description: "API REST robuste avec authentification JWT, documentation Swagger et tests automatisés.",
-    image: "/images/project1.png",
-    technologies: ["Express.js", "JWT", "Swagger", "Jest"],
-    githubUrl: "https://github.com/ahmed/api-rest",
-    liveUrl: "https://api-demo.com"
+    technologies: ["Spring Boot", "Hibernate", "MySQL", "Kafka", "WebSocket"],
+    githubUrl: "https://github.com/xxxmed",
+    liveUrl: ""
   }
 ]
 
-// Données des compétences
-export const skills = [
-  {
-    name: "JavaScript",
-    level: 90,
-    category: "Langage de programmation",
-    icon: "🟨"
+// Données des compétences organisées par catégorie
+export const skillCategories = {
+  erp: {
+    titleKey: "Data.skills.categories.erp",
+    skills: [
+      { name: "Odoo" },
+    ]
   },
-  {
-    name: "React",
-    level: 85,
-    category: "Framework Frontend",
-    icon: "⚛️"
+  backend: {
+    titleKey: "Data.skills.categories.backend",
+    skills: [
+      { name: "Java" },
+      { name: "Spring Boot" },
+      { name: "Hibernate" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "Python" },
+      { name: "Flask" },
+      { name: "PHP" },
+      { name: "Symfony" },
+      { name: "C" },
+      { name: "C++" },
+    ]
   },
-  {
-    name: "Node.js",
-    level: 80,
-    category: "Runtime Backend",
-    icon: "🟢"
+  database: {
+    titleKey: "Data.skills.categories.database",
+    skills: [
+      { name: "PostgreSQL" },
+      { name: "MySQL" },
+      { name: "Oracle" },
+      { name: "MongoDB" },
+      { name: "Redis" },
+    ]
   },
-  {
-    name: "TypeScript",
-    level: 75,
-    category: "Langage de programmation",
-    icon: "🔷"
+  frontend: {
+    titleKey: "Data.skills.categories.frontend",
+    skills: [
+      { name: "JavaScript" },
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "HTML5/CSS3" },
+      { name: "Bootstrap" },
+    ]
   },
-  {
-    name: "Next.js",
-    level: 85,
-    category: "Framework Full-Stack",
-    icon: "▲"
+  devops: {
+    titleKey: "Data.skills.categories.devops",
+    skills: [
+      { name: "Git/GitHub" },
+      { name: "GitHub Actions" },
+      { name: "Docker" },
+      { name: "Postman" },
+    ]
   },
-  {
-    name: "MongoDB",
-    level: 70,
-    category: "Base de données",
-    icon: "🍃"
+  testing: {
+    titleKey: "Data.skills.categories.testing",
+    skills: [
+      { name: "JUnit" },
+      { name: "Jest" },
+    ]
   },
-  {
-    name: "PostgreSQL",
-    level: 75,
-    category: "Base de données",
-    icon: "🐘"
+  dataScience: {
+    titleKey: "Data.skills.categories.dataScience",
+    skills: [
+      { name: "Python (NumPy/Pandas)" },
+      { name: "Matplotlib" },
+      { name: "MATLAB" },
+      { name: "R" },
+      { name: "SPSS" },
+    ]
   },
-  {
-    name: "Docker",
-    level: 65,
-    category: "Conteneurisation",
-    icon: "🐳"
+  modeling: {
+    titleKey: "Data.skills.categories.modeling",
+    skills: [
+      { name: "UML" },
+      { name: "Merise" },
+    ]
   },
-  {
-    name: "AWS",
-    level: 60,
-    category: "Cloud Computing",
-    icon: "☁️"
-  }
-]
+}
+
+// Liste plate pour compatibilité
+export const skills = Object.values(skillCategories).flatMap(cat => 
+  cat.skills.map(skill => ({ ...skill, categoryKey: cat.titleKey }))
+)
 
 // Informations personnelles
 export const personalInfo = {
   name: "Ahmed Raji",
-  title: "Développeur Full Stack",
-  email: "ahmed@example.com",
+  titleKey: "Data.personalInfo.title",
+  email: "ahmedraji408@gmail.com",
   phone: "+212 605 47 94 18",
-  location: "Rabat,Morocco",
-  bio: "Développeur passionné avec une expertise en développement full-stack. J'aime créer des solutions innovantes et performantes qui améliorent l'expérience utilisateur.",
+  location: "Rabat, Maroc",
+  bioKey: "Data.personalInfo.bio",
   socialLinks: {
     github: "https://github.com/xxxmed",
-    linkedin: "https://linkedin.com/in/ahmed",
-    twitter: "https://twitter.com/ahmed"
+    linkedin: "https://linkedin.com/in/ahmed-raji",
+    twitter: ""
   }
 }
 
 // Expériences professionnelles
 export const experiences = [
   {
-    title: "Développeur Full Stack Senior",
-    company: "TechCorp",
-    period: "2022 - Présent",
-    description: "Développement d'applications web complexes avec React et Node.js. Gestion d'équipe et formation des développeurs juniors.",
-    technologies: ["React", "Node.js", "TypeScript", "AWS"]
+    titleKey: "Data.experiences.backend.title",
+    companyKey: "Data.experiences.backend.company",
+    periodKey: "Data.experiences.backend.period",
+    descriptionKey: "Data.experiences.backend.description",
+    technologies: ["Node.js", "Express.js", "MongoDB", "GitHub Actions", "Jest"]
   },
   {
-    title: "Développeur Frontend",
-    company: "WebAgency",
-    period: "2020 - 2022",
-    description: "Création d'interfaces utilisateur modernes et responsives. Collaboration étroite avec les designers UX/UI.",
-    technologies: ["React", "Vue.js", "Sass", "Webpack"]
-  },
-  {
-    title: "Développeur Junior",
-    company: "StartupXYZ",
-    period: "2019 - 2020",
-    description: "Développement de fonctionnalités pour une plateforme SaaS. Apprentissage des bonnes pratiques de développement.",
-    technologies: ["JavaScript", "PHP", "MySQL", "Bootstrap"]
+    titleKey: "Data.experiences.dataIA.title",
+    companyKey: "Data.experiences.dataIA.company",
+    periodKey: "Data.experiences.dataIA.period",
+    descriptionKey: "Data.experiences.dataIA.description",
+    technologies: ["Python", "PyTorch", "UNet 3D", "YAML", "NIfTI"]
   }
 ]
 
 // Formations
 export const education = [
   {
-    degree: "Master en Informatique",
-    school: "Université de Technologie",
-    period: "2017 - 2019",
-    description: "Spécialisation en développement web et intelligence artificielle."
+    degreeKey: "Data.education.insea.degree",
+    schoolKey: "Data.education.insea.school",
+    periodKey: "Data.education.insea.period",
+    descriptionKey: "Data.education.insea.description"
   },
   {
-    degree: "Licence en Informatique",
-    school: "Université des Sciences",
-    period: "2014 - 2017",
-    description: "Formation générale en informatique avec focus sur la programmation."
+    degreeKey: "Data.education.fst.degree",
+    schoolKey: "Data.education.fst.school",
+    periodKey: "Data.education.fst.period",
+    descriptionKey: "Data.education.fst.description"
   }
 ]

@@ -48,7 +48,7 @@ export default function Hero() {
           <div className="animate-fadeInUp">
             <div className="relative">
               <Image
-                src="/images/profile.jpg"
+                src="/images/profile.webp"
                 alt={t('imageAlt')}
                 width={500}
                 height={500}
