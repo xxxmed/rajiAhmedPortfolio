@@ -91,8 +91,10 @@ const nextConfig: NextConfig = {
   // Optimisation du bundle
   experimental: {
   optimizePackageImports: ['@/components', '@/lib'],
-  serverMinification: false
+  serverMinification: false,
+  middlewareNftExternalize: false
 }
+
 };
 
 
