@@ -7,7 +7,7 @@ import {useTranslations} from 'next-intl'
 import { personalInfo } from '@/lib/data'
 import { useState } from 'react'
 import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { IoMdSend } from 'react-icons/io'
 import { MdMessage } from 'react-icons/md'
 
@@ -116,13 +116,6 @@ export default function Contact() {
                        className="flex items-center gap-3 p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-all backdrop-blur">
                       <FaLinkedin className="text-xl" />
                       <span className="font-medium">LinkedIn</span>
-                    </a>
-                    <a href={personalInfo.socialLinks.twitter}
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       className="flex items-center gap-3 p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-all backdrop-blur">
-                      <FaTwitter className="text-xl" />
-                      <span className="font-medium">Twitter</span>
                     </a>
                   </div>
                 </div>

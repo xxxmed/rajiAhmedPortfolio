@@ -1,4 +1,4 @@
-import React from 'react'
+import {personalInfo} from '@/lib/data'
 import {Link} from '@/src/i18n/navigation'
 import {useTranslations} from 'next-intl'
 
@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">{t('name')}</h3>
+            <h3 className="text-xl font-bold mb-4">{personalInfo.name}</h3>
             <p className="text-gray-400">
               {t('tagline')}
             </p>
@@ -28,19 +28,22 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('contact.title')}</h4>
             <div className="space-y-2 text-gray-400">
-              <p>{t('contact.email', {value: 'ahmed@example.com'})}</p>
-              <p>{t('contact.phone', {value: '+33 6 XX XX XX XX'})}</p>
+              <p>{t('contact.email', {value: personalInfo.email})}</p>
+              <p>{t('contact.phone', {value: personalInfo.phone})}</p>
               <div className="flex space-x-4 mt-4">
-                <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-                <a href="#" className="hover:text-white transition-colors">GitHub</a>
-                <a href="#" className="hover:text-white transition-colors">Twitter</a>
+                {personalInfo.socialLinks.linkedin && (
+                  <a href={personalInfo.socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+                )}
+                {personalInfo.socialLinks.github && (
+                  <a href={personalInfo.socialLinks.github} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
+                )}
               </div>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Ahmed. {t('copyright')}</p>
+          <p>&copy; {new Date().getFullYear()} {personalInfo.name}. {t('copyright')}</p>
         </div>
       </div>
     </footer>

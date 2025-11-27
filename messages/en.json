@@ -88,6 +88,14 @@
   },
   "Data": {
     "projects": {
+      "odooDeplacements": {
+        "title": "Travel Management (Odoo)",
+        "description": "Complete Odoo module to manage employee travel requests and missions. Hierarchical approval workflow (Manager → CFO), automatic expense calculations, logistics management (cities, vehicles, transportation), email notifications and assigned activities."
+      },
+      "gestionStock": {
+        "title": "Stock & Supplier Management",
+        "description": "PHP/MySQL web application to manage products and suppliers. Features: add, edit and delete products, stock history, display products at double threshold, supplier details. Modern interface with XSS security."
+      },
       "dataWarehouse": {
         "title": "Data Warehouse - Banking Analysis",
         "description": "Building a data warehouse with PostgreSQL to analyze customer reviews of bank branches in Morocco. Implementation of ETL processes with DBT and use of Google Maps API to extract geolocated data."
@@ -95,6 +103,10 @@
       "medicalPlatform": {
         "title": "Medical Analysis Platform",
         "description": "Real-time medical records analysis platform with Spring Boot, Hibernate and MySQL. Integration of Kafka for automatic alerts and WebSocket for real-time notifications."
+      },
+      "timeSeriesAnalysis": {
+        "title": "Time Series Analysis Tool",
+        "description": "Comprehensive time series analysis tool using Python. Implements ARIMA and SARIMA models with stationarity tests (ADF, KPSS), AIC/BIC optimization criteria, and Ljung-Box residual diagnostics. Interactive visualizations powered by Plotly."
       }
     },
     "skills": {

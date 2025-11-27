@@ -1,20 +1,39 @@
 // Données des projets (structure uniquement, les textes viendront des traductions)
 export const projects = [
   {
+    titleKey: "Data.projects.odooDeplacements.title",
+    descriptionKey: "Data.projects.odooDeplacements.description",
+    image: "/images/project-odoo.png",
+    technologies: ["Odoo", "Python", "XML", "PostgreSQL", "OWL"],
+    githubUrl: "https://github.com/xxxmed/gestionDeplacements"
+  },
+  {
+    titleKey: "Data.projects.gestionStock.title",
+    descriptionKey: "Data.projects.gestionStock.description",
+    image: "/images/project-stock.png",
+    technologies: ["PHP", "MySQL", "HTML", "CSS", "XAMPP"],
+    githubUrl: "https://github.com/xxxmed"
+  },
+  {
     titleKey: "Data.projects.dataWarehouse.title",
     descriptionKey: "Data.projects.dataWarehouse.description",
     image: "/images/project1.png",
     technologies: ["PostgreSQL", "DBT", "Google Maps API", "ETL"],
-    githubUrl: "https://github.com/xxxmed",
-    liveUrl: ""
+    githubUrl: "https://github.com/xxxmed/Analyzing-Customer-Reviews-of-Bank-Agencies-in-Morocco"
   },
   {
     titleKey: "Data.projects.medicalPlatform.title",
     descriptionKey: "Data.projects.medicalPlatform.description",
     image: "/images/project2.png",
     technologies: ["Spring Boot", "Hibernate", "MySQL", "Kafka", "WebSocket"],
-    githubUrl: "https://github.com/xxxmed",
-    liveUrl: ""
+    githubUrl: "https://github.com/MedTahiri/Plateforme-d-Analyse-des-Dossiers-Medicaux-avec-Pipeline-Temps-Reel"
+  },
+  {
+    titleKey: "Data.projects.timeSeriesAnalysis.title",
+    descriptionKey: "Data.projects.timeSeriesAnalysis.description",
+    image: "/images/project-timeseries.png",
+    technologies: ["Python", "NumPy", "Pandas", "Statsmodels", "Plotly"],
+    githubUrl: "https://github.com/xxxmed"
   }
 ]
 
@@ -112,8 +131,8 @@ export const personalInfo = {
   bioKey: "Data.personalInfo.bio",
   socialLinks: {
     github: "https://github.com/xxxmed",
-    linkedin: "https://linkedin.com/in/ahmed-raji",
-    twitter: ""
+    linkedin: "https://www.linkedin.com/in/ahmed-raji-2063a9237",
+
   }
 }
 

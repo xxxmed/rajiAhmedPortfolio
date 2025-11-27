@@ -5,7 +5,7 @@ import {getTranslations} from 'next-intl/server'
 import { personalInfo, experiences, education } from '@/lib/data'
 import Image from 'next/image'
 import { HiMail, HiPhone, HiLocationMarker, HiBriefcase, HiAcademicCap, HiCalendar, HiOfficeBuilding } from 'react-icons/hi'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { MdSchool } from 'react-icons/md'
 
 export default async function About() {
@@ -87,12 +87,6 @@ export default async function About() {
                    rel="noopener noreferrer"
                    className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                   <FaLinkedin /> LinkedIn
-                </a>
-                <a href={personalInfo.socialLinks.twitter}
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className="flex items-center gap-2 px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition-colors">
-                  <FaTwitter /> Twitter
                 </a>
               </div>
             </div>

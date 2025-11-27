@@ -88,6 +88,14 @@
   },
   "Data": {
     "projects": {
+      "odooDeplacements": {
+        "title": "Gestion des Déplacements (Odoo)",
+        "description": "Module Odoo complet pour gérer les demandes de déplacement et missions des employés. Workflow de validation hiérarchique (Manager → DAF), calculs automatiques des frais, gestion de la logistique (villes, véhicules, transports), notifications par email et activités assignées."
+      },
+      "gestionStock": {
+        "title": "Gestion de Stock & Fournisseurs",
+        "description": "Application web PHP/MySQL pour gérer les produits et fournisseurs. Fonctionnalités : ajout, modification et suppression de produits, historique du stock, affichage des produits au double du seuil, détails des fournisseurs. Interface moderne avec sécurité XSS."
+      },
       "dataWarehouse": {
         "title": "Entrepôt de Données - Analyse Bancaire",
         "description": "Construction d'un entrepôt de données avec PostgreSQL pour analyser les avis clients des agences bancaires au Maroc. Mise en œuvre de processus ETL avec DBT et utilisation de l'API Google Maps pour extraire les données géolocalisées."
@@ -95,6 +103,10 @@
       "medicalPlatform": {
         "title": "Plateforme d'Analyse Médicale",
         "description": "Plateforme d'analyse de dossiers médicaux en temps réel avec Spring Boot, Hibernate et MySQL. Intégration de Kafka pour les alertes automatiques et WebSocket pour les notifications en temps réel."
+      },
+      "timeSeriesAnalysis": {
+        "title": "Outil d'Analyse des Séries Temporelles",
+        "description": "Outil complet d'analyse des séries temporelles en Python. Implémentation des modèles ARIMA et SARIMA avec tests de stationnarité (ADF, KPSS), critères d'optimisation AIC/BIC et diagnostics résiduels Ljung-Box. Visualisations interactives avec Plotly."
       }
     },
     "skills": {
