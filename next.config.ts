@@ -90,9 +90,11 @@ const nextConfig: NextConfig = {
   
   // Optimisation du bundle
   experimental: {
-    optimizePackageImports: ['@/components', '@/lib'],
-  },
+  optimizePackageImports: ['@/components', '@/lib'],
+  serverMinification: false
 }
+
+
 
 export default withNextIntl(nextConfig)
 
