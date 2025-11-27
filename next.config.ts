@@ -93,9 +93,9 @@ const nextConfig: NextConfig = {
   optimizePackageImports: ['@/components', '@/lib'],
   serverMinification: false
 }
-}
+};
 
 
-export default withNextIntl(nextConfig)
+export default withNextIntl(nextConfig);
 
 
