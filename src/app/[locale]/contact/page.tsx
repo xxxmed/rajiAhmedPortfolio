@@ -7,7 +7,7 @@ import {useTranslations} from 'next-intl'
 import { personalInfo } from '@/lib/data'
 import { useState } from 'react'
 import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin,FaGlobeAmericas } from 'react-icons/fa'
 import { IoMdSend } from 'react-icons/io'
 import { MdMessage } from 'react-icons/md'
 
@@ -99,9 +99,9 @@ export default function Contact() {
                 
                 {/* Social Links Card */}
                 <div className="bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl shadow-xl p-8 text-white">
-                  <h3 className="text-2xl font-bold mb-6">
-                    🌐 {t('Pages.contact.socialTitle')}
-                  </h3>
+                    <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
+                    <FaGlobeAmericas className="text-white" /> {t('Pages.contact.socialTitle')}
+                    </h3>
                   <div className="space-y-3">
                     <a href={personalInfo.socialLinks.github}
                        target="_blank"
