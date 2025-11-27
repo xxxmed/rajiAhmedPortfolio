@@ -5,6 +5,8 @@ import createNextIntlPlugin from 'next-intl/plugin';
  
 const withNextIntl = createNextIntlPlugin();
 const nextConfig: NextConfig = {
+  output: 'standalone',
+  
   // Optimisation des images
   images: {
     formats: ['image/webp', 'image/avif'], // Formats modernes pour réduire la taille
