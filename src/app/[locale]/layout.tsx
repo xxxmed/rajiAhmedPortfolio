@@ -25,12 +25,12 @@ export default async function LocaleLayout({
     notFound();
   }
   setRequestLocale(locale);
-  const messages = await getMessages()
+  const messages = await getMessages({locale});
 
   return (
-    <html lang={locale}>
+    <html lang={locale} >
       <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>

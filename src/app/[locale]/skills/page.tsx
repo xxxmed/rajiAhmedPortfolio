@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import SectionTitle from '@/components/ui/SectionTitle'
-import {getTranslations} from 'next-intl/server'
+import {getTranslations, setRequestLocale} from 'next-intl/server'
 import SkillCard from '@/components/SkillCard'
 import { skillCategories } from '@/lib/data'
 import { HiLightningBolt, HiCode, HiDatabase, HiDesktopComputer, HiCog, HiBeaker, HiChartBar, HiTemplate, HiCube } from 'react-icons/hi'
@@ -17,9 +17,15 @@ const categoryIcons: Record<string, React.ReactNode> = {
   modeling: <HiTemplate className="w-8 h-8" />,
 }
 
-export default async function Skills() {
-  const t = await getTranslations('Pages')
-  const tData = await getTranslations('Data')
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function Skills({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'Pages' })
+  const tData = await getTranslations({ locale, namespace: 'Data' })
   
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">

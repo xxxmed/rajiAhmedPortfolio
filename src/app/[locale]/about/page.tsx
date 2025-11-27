@@ -1,15 +1,21 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import SectionTitle from '@/components/ui/SectionTitle'
-import {getTranslations} from 'next-intl/server'
+import {getTranslations, setRequestLocale} from 'next-intl/server'
 import { personalInfo, experiences, education } from '@/lib/data'
 import Image from 'next/image'
 import { HiMail, HiPhone, HiLocationMarker, HiBriefcase, HiAcademicCap, HiCalendar, HiOfficeBuilding } from 'react-icons/hi'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { MdSchool } from 'react-icons/md'
 
-export default async function About() {
-  const t = await getTranslations()
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function About({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale })
   
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">

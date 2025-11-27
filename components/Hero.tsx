@@ -3,6 +3,7 @@ import Button from './ui/Button'
 import Image from 'next/image'
 import {useTranslations} from 'next-intl'
 import { useLocale } from 'next-intl';
+import { Link } from '@/src/i18n/navigation';
 
 export default function Hero() {
   const t = useTranslations('Hero')
@@ -11,7 +12,7 @@ export default function Hero() {
 
   switch (locale) {
     case 'ar':
-      cvHref = '/cv/Ahmed_Raji_CV_AR.pdf';
+      cvHref = '/cv/AhmedRajiCV_fr.pdf';
       break;
     case 'en':
       cvHref = '/cv/AhmedRajiCV_en.pdf';
@@ -32,11 +33,11 @@ export default function Hero() {
               {t('subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href='\projects'>
+              <Link href="/projects">
               <Button size="lg" className="w-full sm:w-auto">
                 {t('viewProjects')}
               </Button>
-              </a>
+              </Link>
               <a href={cvHref} download="Ahmed_Raji_CV">
               <Button variant="outline" size="lg" className="w-full sm:w-auto">
                 {t('downloadCv')}
