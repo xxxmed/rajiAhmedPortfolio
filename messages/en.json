@@ -73,6 +73,11 @@
         "email": "Email",
         "message": "Message",
         "submit": "Send"
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "messageRequired": "Message is required"
       }
     },
     "sections": {

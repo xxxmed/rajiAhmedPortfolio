@@ -8,13 +8,13 @@ import { personalInfo } from '@/lib/data'
 import { useState } from 'react'
 import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi'
 import { FaGithub, FaLinkedin,FaGlobeAmericas } from 'react-icons/fa'
-import { IoMdSend } from 'react-icons/io'
 import { MdMessage } from 'react-icons/md'
 
 export default function Contact() {
   const t = useTranslations()
   const [formStatus, setFormStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
+  const [fieldErrors, setFieldErrors] = useState<Record<string,string>>({})
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -26,13 +26,15 @@ export default function Contact() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       })
-
-      if (response.ok) {
+      const data = await response.json()
+      if (response.ok && data.ok) {
+        setFieldErrors({})
         setFormStatus('success')
         setFormData({ name: '', email: '', message: '' })
         setTimeout(() => setFormStatus('idle'), 5000)
       } else {
         setFormStatus('error')
+        setFieldErrors(data.errors || {})
         setTimeout(() => setFormStatus('idle'), 5000)
       }
     } catch (error) {
@@ -125,7 +127,7 @@ export default function Contact() {
               <div className="animate-fade-in-right">
                 <div className="bg-white rounded-2xl shadow-xl p-8">
                   <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                    <IoMdSend className="text-blue-600" /> {t('Pages.contact.formTitle')}
+                    <HiMail className="text-blue-600" /> {t('Pages.contact.formTitle')}
                   </h3>
                   
                   <form onSubmit={handleSubmit} className="space-y-6">
@@ -139,10 +141,13 @@ export default function Contact() {
                         name="name"
                         value={formData.name}
                         onChange={(e) => setFormData({...formData, name: e.target.value})}
-                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-gray-900"
                         required
                         placeholder={t('Pages.contact.namePlaceholder')}
                       />
+                      {fieldErrors.name && (
+                        <p className="mt-1 text-sm text-red-600">{t(fieldErrors.name)}</p>
+                      )}
                     </div>
                     
                     <div>
@@ -155,10 +160,13 @@ export default function Contact() {
                         name="email"
                         value={formData.email}
                         onChange={(e) => setFormData({...formData, email: e.target.value})}
-                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-gray-900"
                         required
                         placeholder={t('Pages.contact.emailPlaceholder')}
                       />
+                      {fieldErrors.email && (
+                        <p className="mt-1 text-sm text-red-600">{t(fieldErrors.email)}</p>
+                      )}
                     </div>
                     
                     <div>
@@ -171,10 +179,13 @@ export default function Contact() {
                         rows={6}
                         value={formData.message}
                         onChange={(e) => setFormData({...formData, message: e.target.value})}
-                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
+                        className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none text-gray-900"
                         required
                         placeholder={t('Pages.contact.messagePlaceholder')}
                       ></textarea>
+                      {fieldErrors.message && (
+                        <p className="mt-1 text-sm text-red-600">{t(fieldErrors.message)}</p>
+                      )}
                     </div>
                     
                     <button
@@ -195,7 +206,7 @@ export default function Contact() {
                       {formStatus === 'error' && `❌ ${t('Pages.contact.error')}`}
                       {formStatus === 'idle' && (
                         <span className="flex items-center justify-center gap-2">
-                          <IoMdSend /> {t('Pages.contact.form.submit')}
+                          <HiMail /> {t('Pages.contact.form.submit')}
                         </span>
                       )}
                     </button>
