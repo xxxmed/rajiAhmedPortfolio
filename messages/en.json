@@ -7,18 +7,18 @@
     "contact": "Contact"
   },
   "Hero": {
-    "title": "Hello, I'm Ahmed Raji",
-    "subtitle": "Passionate Full Stack developer crafting great web experiences.",
+    "title": "Ahmed Raji",
+    "subtitle": "Data & Software Engineering student specializing in Full Stack Development, ERP Integration (Odoo/SAP), Data Pipelines, and CI/CD Automation. Currently seeking a 4-6 months final internship (PFE) in Software Development, ERP, or Data Engineering.",
     "viewProjects": "View my projects",
     "downloadCv": "Download CV",
-    "imageAlt": "Ahmed - Full Stack Developer",
-    "badgeTitle": "Developer",
-    "badgeSubtitle": "Full Stack"
+    "imageAlt": "Ahmed Raji - Software Engineer",
+    "badgeTitle": "Available for",
+    "badgeSubtitle": "Internship"
   },
   "Footer": {
     "name": "Ahmed Raji",
     "copyright": "All rights reserved",
-    "tagline": "Passionate Full Stack developer crafting great web experiences.",
+    "tagline": "Full Stack Developer specializing in Backend, ERP (Odoo/SAP), Data Pipelines, and CI/CD.",
     "quickLinks": "Quick links",
     "links": {
       "about": "About",
@@ -129,7 +129,7 @@
     "personalInfo": {
       "name": "Ahmed Raji",
       "title": "Data & Software Engineering Student",
-      "bio": "Engineering student at INSEA specializing in Data and Software Engineering. Passionate about backend development, data analysis and artificial intelligence. Experience in Node.js, Java, Python and cloud technologies."
+      "bio": "Final-year Data & Software Engineering student at INSEA. Passionate about backend development (Java/Spring Boot, Node.js, Python), software testing (unit, integration, REST API validation), ERP integration (Odoo, SAP), and building Data Pipelines (ETL, data processing). I focus on code quality, backend service reliability, and CI/CD automation. Currently seeking a 4-6 months internship in software development, ERP, or Data Engineering."
     },
     "experiences": {
       "backend": {

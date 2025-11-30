@@ -30,16 +30,14 @@ export default async function About({ params }: Props) {
                 <div className="relative">
                   <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
                     <Image
-                      src="/images/profile.webp"
+                      src="/images/profile.webp?v=1"
                       alt={personalInfo.name}
                       width={160}
                       height={160}
                       className="object-cover"
                     />
                   </div>
-                  <div className="absolute -bottom-2 -right-2 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg">
-                    ⭐ {t(personalInfo.titleKey)}
-                  </div>
+                  
                 </div>
                 
                 <div className="flex-1 text-center md:text-left">

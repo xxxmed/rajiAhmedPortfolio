@@ -7,18 +7,18 @@
     "contact": "Contact"
   },
   "Hero": {
-    "title": "Bonjour, je suis Ahmed Raji",
-    "subtitle": "Développeur Full Stack passionné créant de superbes expériences web.",
+    "title": "Ahmed Raji",
+    "subtitle": "Étudiant en ingénierie de données et logicielles spécialisé en développement Full Stack, intégration ERP (Odoo/SAP), Data Pipelines et automatisation CI/CD. Actuellement à la recherche d'un stage PFE (4-6 mois) en développement logiciel, ERP ou Data Engineering.",
     "viewProjects": "Voir mes projets",
     "downloadCv": "Télécharger le CV",
-    "imageAlt": "Ahmed - Développeur Full Stack",
-    "badgeTitle": "Développeur",
-    "badgeSubtitle": "Full Stack"
+    "imageAlt": "Ahmed Raji - Ingénieur Software",
+    "badgeTitle": "Disponible pour",
+    "badgeSubtitle": "Stage PFE"
   },
   "Footer": {
     "name": "Ahmed Raji",
     "copyright": "Tous droits réservés",
-    "tagline": "Développeur Full Stack passionné créant de superbes expériences web.",
+    "tagline": "Développeur Full Stack spécialisé en Backend, ERP (Odoo/SAP), Data Pipelines et CI/CD.",
     "quickLinks": "Liens rapides",
     "links": {
       "about": "À propos",
@@ -128,8 +128,8 @@
     },
     "personalInfo": {
       "name": "Ahmed Raji",
-      "title": "Ingénieur Data & Software Engineering",
-      "bio": "Étudiant ingénieur à l'INSEA spécialisé en Data et Software Engineering. Passionné par le développement backend, l'analyse de données et l'intelligence artificielle. Expérience en Node.js, Java, Python et technologies cloud."
+      "title": "Étudiant en ingénierie de données et logicielles",
+      "bio": "Étudiant en dernière année d'ingénierie Data & Software Engineering à l'INSEA. Passionné par le développement backend (Java/Spring Boot, Node.js, Python), les tests logiciels (unitaires, intégration, API REST), l'intégration d'ERP (Odoo, SAP) et la construction de Data Pipelines (ETL, traitement de données). Je porte une attention particulière à la qualité du code, la fiabilité des services backend et l'automatisation CI/CD. Actuellement à la recherche d'un stage PFE (4-6 mois) en développement logiciel, ERP ou Data Engineering."
     },
     "experiences": {
       "backend": {

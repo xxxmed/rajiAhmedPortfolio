@@ -28,8 +28,14 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('contact.title')}</h4>
             <div className="space-y-2 text-gray-400">
-              <p>{t('contact.email', {value: ''})}<a href={`mailto:${personalInfo.email}`} className="hover:text-white transition-colors">{personalInfo.email}</a></p>
-              <p>{t('contact.phone', {value: ''})}<a href={`tel:${personalInfo.phone}`} className="hover:text-white transition-colors">{personalInfo.phone}</a></p>
+              <p className="flex items-center gap-2">
+                <span>{t('contact.email', {value: ''})}</span>
+                <a dir="ltr" href={`mailto:${personalInfo.email}`} className="hover:text-white transition-colors">{personalInfo.email}</a>
+              </p>
+              <p className="flex items-center gap-2">
+                <span>{t('contact.phone', {value: ''})}</span>
+                <a dir="ltr" href={`tel:${personalInfo.phone}`} className="hover:text-white transition-colors">{personalInfo.phone}</a>
+              </p>
               <div className="flex space-x-4 mt-4">
                 {personalInfo.socialLinks.linkedin && (
                   <a href={personalInfo.socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>

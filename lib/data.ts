@@ -60,6 +60,15 @@ export const skillCategories = {
       { name: "C" },
       { name: "C++" },
     ]
+  },frontend: {
+    titleKey: "Data.skills.categories.frontend",
+    skills: [
+      { name: "JavaScript" },
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "HTML5/CSS3" },
+      { name: "Bootstrap" },
+    ]
   },
   database: {
     titleKey: "Data.skills.categories.database",
@@ -71,16 +80,7 @@ export const skillCategories = {
       { name: "Redis" },
     ]
   },
-  frontend: {
-    titleKey: "Data.skills.categories.frontend",
-    skills: [
-      { name: "JavaScript" },
-      { name: "React" },
-      { name: "Next.js" },
-      { name: "HTML5/CSS3" },
-      { name: "Bootstrap" },
-    ]
-  },
+  
   devops: {
     titleKey: "Data.skills.categories.devops",
     skills: [
