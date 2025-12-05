@@ -169,3 +169,34 @@ export const education = [
     descriptionKey: "Data.education.fst.description"
   }
 ]
+
+// Certifications
+export const certifications = [
+  {
+    titleKey: "Data.certifications.sap.title",
+    issuerKey: "Data.certifications.sap.issuer",
+    dateKey: "Data.certifications.sap.date",
+    descriptionKey: "Data.certifications.sap.description",
+    skills: ["SAP Cloud Strategy", "SAP HCM", "SuccessFactors", "SAP HCM Value Proposition"],
+    credentialUrl: "https://www.credly.com/badges/3e2fb240-a192-4f90-a497-d74e0fddf772/linked_in_profile",
+    certificateImage: "/certificates/sap-successfactors.png"
+  },
+  {
+    titleKey: "Data.certifications.javaOop.title",
+    issuerKey: "Data.certifications.javaOop.issuer",
+    dateKey: "Data.certifications.javaOop.date",
+    descriptionKey: "Data.certifications.javaOop.description",
+    skills: ["Java", "OOP", "Software Design", "Software Testing", "Application Development"],
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/S9U85Q9S2Y2M",
+    certificateImage: "/certificates/java-oop-coursera.pdf"
+  },
+  {
+    titleKey: "Data.certifications.pandas.title",
+    issuerKey: "Data.certifications.pandas.issuer",
+    dateKey: "Data.certifications.pandas.date",
+    descriptionKey: "Data.certifications.pandas.description",
+    skills: ["Python", "Pandas", "Data Analysis", "Data Manipulation", "NumPy"],
+    credentialUrl: "https://alison.com/certification/check/2y10ljkGoulLvpDwdreFeuZ0GvWZpbi1redQCiV8Ho028pIzOnqXm",
+    certificateImage: "/certificates/pandas-alison.pdf"
+  }
+]

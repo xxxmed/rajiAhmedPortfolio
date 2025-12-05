@@ -3,8 +3,19 @@
     "home": "Accueil",
     "projects": "Projets",
     "skills": "Compétences",
+    "certifications": "Certifications",
     "about": "À propos",
     "contact": "Contact"
+  },
+  "Home": {
+    "aboutSubtitle": "Découvrez qui je suis et mon parcours",
+    "viewMore": "Voir plus",
+    "viewAll": "Voir tout",
+    "learnMore": "En savoir plus sur moi",
+    "viewAllProjects": "Voir tous les projets",
+    "viewAllCertifications": "Voir toutes les certifications",
+    "contactDescription": "Intéressé par une collaboration ? N'hésitez pas à me contacter !",
+    "sendMessage": "Envoyez-moi un message"
   },
   "Hero": {
     "title": "Ahmed Raji",
@@ -53,6 +64,13 @@
     "skills": {
       "title": "Mes Compétences",
       "subtitle": "Mes compétences techniques et mon niveau d'expertise"
+    },
+    "certifications": {
+      "title": "Mes Certifications",
+      "subtitle": "Mes certifications professionnelles et formations validées",
+      "viewCredential": "Voir le certificat",
+      "clickToView": "Cliquez pour voir le certificat",
+      "clickToViewPdf": "Cliquez pour ouvrir le PDF"
     },
     "contact": {
       "title": "Contactez‑moi",
@@ -157,6 +175,26 @@
         "school": "FST Al Hoceima",
         "period": "Sept 2021 - 2023",
         "description": "Mathématiques, Informatique & Physique - Mention Très Bien. Formation fondamentale en sciences et informatique."
+      }
+    },
+    "certifications": {
+      "sap": {
+        "title": "SAP SuccessFactors HCM Solutions",
+        "issuer": "SAP",
+        "date": "2024",
+        "description": "Attestation de réussite validant la compréhension des aspects fondamentaux de la suite SAP SuccessFactors HCM, la stratégie cloud de SAP, son portefeuille intégré et sa connexion aux processus métier de bout en bout."
+      },
+      "javaOop": {
+        "title": "Application Supermarché avec Java OOP",
+        "issuer": "Coursera",
+        "date": "2024",
+        "description": "Formation sur la programmation orientée objet en Java : conception et implémentation de classes, tests logiciels et développement d'applications."
+      },
+      "pandas": {
+        "title": "Maîtriser la bibliothèque Pandas en Python",
+        "issuer": "Alison",
+        "date": "Juin 2024",
+        "description": "Formation complète sur Pandas pour l'analyse et la manipulation de données : nettoyage, normalisation, visualisation, calculs statistiques et automatisation. Score final : 90%."
       }
     }
   }

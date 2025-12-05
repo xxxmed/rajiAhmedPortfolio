@@ -3,8 +3,19 @@
     "home": "Home",
     "projects": "Projects",
     "skills": "Skills",
+    "certifications": "Certifications",
     "about": "About",
     "contact": "Contact"
+  },
+  "Home": {
+    "aboutSubtitle": "Discover who I am and my background",
+    "viewMore": "View more",
+    "viewAll": "View all",
+    "learnMore": "Learn more about me",
+    "viewAllProjects": "View all projects",
+    "viewAllCertifications": "View all certifications",
+    "contactDescription": "Interested in working together? Feel free to reach out!",
+    "sendMessage": "Send me a message"
   },
   "Hero": {
     "title": "Ahmed Raji",
@@ -53,6 +64,13 @@
     "skills": {
       "title": "My Skills",
       "subtitle": "My technical skills and level of expertise"
+    },
+    "certifications": {
+      "title": "My Certifications",
+      "subtitle": "My professional certifications and validated trainings",
+      "viewCredential": "View Credential",
+      "clickToView": "Click to view certificate",
+      "clickToViewPdf": "Click to open PDF"
     },
     "contact": {
       "title": "Contact me",
@@ -157,6 +175,26 @@
         "school": "FST Al Hoceima",
         "period": "Sept 2021 - 2023",
         "description": "Mathematics, Computer Science & Physics - Honors (Mention Très Bien). Fundamental training in science and computer science."
+      }
+    },
+    "certifications": {
+      "sap": {
+        "title": "SAP SuccessFactors HCM Solutions",
+        "issuer": "SAP",
+        "date": "2024",
+        "description": "Record of Achievement validating understanding of fundamental aspects of SAP SuccessFactors HCM suite, SAP cloud strategy, integrated portfolio, and connection to end-to-end business processes."
+      },
+      "javaOop": {
+        "title": "Supermarket App using Java OOP",
+        "issuer": "Coursera",
+        "date": "2024",
+        "description": "Training on object-oriented programming in Java: designing and implementing classes from scratch, software testing, and application development."
+      },
+      "pandas": {
+        "title": "Master the Pandas Library in Python",
+        "issuer": "Alison",
+        "date": "June 2024",
+        "description": "Complete training on Pandas for data analysis and manipulation: cleaning, normalization, visualization, statistical calculations and automation. Final score: 90%."
       }
     }
   }

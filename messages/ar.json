@@ -3,8 +3,19 @@
     "home": "الرئيسية",
     "projects": "المشاريع",
     "skills": "المهارات",
+    "certifications": "الشهادات",
     "about": "نبذة",
     "contact": "تواصل"
+  },
+  "Home": {
+    "aboutSubtitle": "اكتشف من أنا ومسيرتي",
+    "viewMore": "عرض المزيد",
+    "viewAll": "عرض الكل",
+    "learnMore": "معرفة المزيد عني",
+    "viewAllProjects": "عرض جميع المشاريع",
+    "viewAllCertifications": "عرض جميع الشهادات",
+    "contactDescription": "مهتم بالتعاون؟ لا تتردد في التواصل معي!",
+    "sendMessage": "أرسل لي رسالة"
   },
   "Hero": {
     "title": "أحمد راجي",
@@ -53,6 +64,13 @@
     "skills": {
       "title": "مهاراتي",
       "subtitle": "مهاراتي التقنية ومستوى خبرتي"
+    },
+"certifications": {
+      "title": "شهاداتي",
+      "subtitle": "شهاداتي المهنية وتدريباتي المعتمدة",
+      "viewCredential": "عرض الشهادة",
+      "clickToView": "انقر لعرض الشهادة",
+      "clickToViewPdf": "انقر لفتح PDF"
     },
     "contact": {
       "title": "تواصل معي",
@@ -157,6 +175,26 @@
         "school": "كلية العلوم والتقنيات الحسيمة",
         "period": "سبتمبر 2021 - 2023",
         "description": "الرياضيات، الإعلاميات والفيزياء - ميزة حسن جداً. تكوين أساسي في العلوم والمعلوماتية."
+      }
+    },
+    "certifications": {
+      "sap": {
+        "title": "SAP SuccessFactors HCM Solutions",
+        "issuer": "SAP",
+        "date": "2024",
+        "description": "شهادة إنجاز تؤكد فهم الجوانب الأساسية لمجموعة SAP SuccessFactors HCM، استراتيجية السحابة من SAP، المحفظة المتكاملة والربط بعمليات الأعمال الشاملة."
+      },
+      "javaOop": {
+        "title": "تطبيق سوبرماركت باستخدام Java OOP",
+        "issuer": "Coursera",
+        "date": "2024",
+        "description": "تدريب على البرمجة الكائنية الموجهة في Java: تصميم وتنفيذ الفئات من الصفر، اختبار البرمجيات وتطوير التطبيقات."
+      },
+      "pandas": {
+        "title": "إتقان مكتبة Pandas في Python",
+        "issuer": "Alison",
+        "date": "يونيو 2024",
+        "description": "تدريب شامل على Pandas لتحليل البيانات ومعالجتها: التنظيف، التطبيع، التصور، الحسابات الإحصائية والأتمتة. النتيجة النهائية: 90%."
       }
     }
   }
