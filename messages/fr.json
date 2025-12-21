@@ -130,6 +130,10 @@
       "timeSeriesAnalysis": {
         "title": "Outil d'Analyse des Séries Temporelles",
         "description": "Outil complet d'analyse des séries temporelles en Python. Implémentation des modèles ARIMA et SARIMA avec tests de stationnarité (ADF, KPSS), critères d'optimisation AIC/BIC et diagnostics résiduels Ljung-Box. Visualisations interactives avec Plotly."
+      },
+      "jobMatch": {
+        "title": "JobMatch - Plateforme de Recommandation d'Emplois",
+        "description": "Application full-stack de recommandation d'emplois intelligente utilisant l'IA pour matcher les candidats avec les opportunités professionnelles. Scraping automatique depuis Indeed, analyse sémantique avec Sentence Transformers, système de scoring multi-critères (compétences, localisation, salaire, mode de travail). Stack : Next.js, TypeScript, FastAPI, PostgreSQL, Docker."
       }
     },
     "skills": {

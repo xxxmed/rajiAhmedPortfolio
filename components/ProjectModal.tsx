@@ -10,6 +10,7 @@ interface Project {
   titleKey: string
   descriptionKey: string
   image: string
+  architectureImage?: string
   technologies: string[]
   githubUrl?: string
   liveUrl?: string
@@ -96,6 +97,23 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
               {t(project.descriptionKey)}
             </p>
           </div>
+
+          {/* Architecture technique (si disponible) */}
+          {project.architectureImage && (
+            <div className="mb-6 bg-gray-50 rounded-lg p-4">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                Architecture Technique
+              </h3>
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src={project.architectureImage}
+                  alt={`${t(project.titleKey)} - Architecture`}
+                  fill
+                  className="object-contain bg-gray-900"
+                />
+              </div>
+            </div>
+          )}
 
           {/* Boutons d'action */}
           <div className="flex flex-wrap gap-3 pt-4 border-t border-gray-100">

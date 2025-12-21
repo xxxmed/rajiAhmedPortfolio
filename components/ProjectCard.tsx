@@ -11,6 +11,7 @@ interface Project {
   titleKey: string
   descriptionKey: string
   image: string
+  architectureImage?: string
   technologies: string[]
   githubUrl?: string
   liveUrl?: string

@@ -8,12 +8,14 @@ export const projects = [
     githubUrl: "https://github.com/xxxmed/gestionDeplacements"
   },
   {
-    titleKey: "Data.projects.gestionStock.title",
-    descriptionKey: "Data.projects.gestionStock.description",
-    image: "/images/project-stock.png",
-    technologies: ["PHP", "MySQL", "HTML", "CSS", "XAMPP"],
-    githubUrl: "https://github.com/xxxmed"
+    titleKey: "Data.projects.jobMatch.title",
+    descriptionKey: "Data.projects.jobMatch.description",
+    image: "/images/project-jobmatch.png",
+    architectureImage: "/images/jobmatch-architecture.png",
+    technologies: ["Next.js", "TypeScript", "FastAPI", "Python", "PostgreSQL", "ML", "Docker", "Tailwind CSS"],
+    githubUrl: "https://github.com/IzeriaAbdellatif/Machine-learning-with-pre-trained-models"
   },
+  
   {
     titleKey: "Data.projects.dataWarehouse.title",
     descriptionKey: "Data.projects.dataWarehouse.description",
@@ -29,12 +31,20 @@ export const projects = [
     githubUrl: "https://github.com/MedTahiri/Plateforme-d-Analyse-des-Dossiers-Medicaux-avec-Pipeline-Temps-Reel"
   },
   {
+    titleKey: "Data.projects.gestionStock.title",
+    descriptionKey: "Data.projects.gestionStock.description",
+    image: "/images/project-stock.png",
+    technologies: ["PHP", "MySQL", "HTML", "CSS", "XAMPP"],
+    githubUrl: "https://github.com/xxxmed/Gestion-de-Stock-Fournisseurs"
+  },
+  {
     titleKey: "Data.projects.timeSeriesAnalysis.title",
     descriptionKey: "Data.projects.timeSeriesAnalysis.description",
     image: "/images/project-timeseries.png",
     technologies: ["Python", "NumPy", "Pandas", "Statsmodels", "Plotly"],
-    githubUrl: "https://github.com/xxxmed"
+    githubUrl: "https://github.com/xxxmed/series_chronologiques"
   }
+  
 ]
 
 // Données des compétences organisées par catégorie

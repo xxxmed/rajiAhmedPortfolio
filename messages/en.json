@@ -129,8 +129,10 @@
       },
       "timeSeriesAnalysis": {
         "title": "Time Series Analysis Tool",
-        "description": "Comprehensive time series analysis tool using Python. Implements ARIMA and SARIMA models with stationarity tests (ADF, KPSS), AIC/BIC optimization criteria, and Ljung-Box residual diagnostics. Interactive visualizations powered by Plotly."
-      }
+        "description": "Comprehensive time series analysis tool using Python. Implements ARIMA and SARIMA models with stationarity tests (ADF, KPSS), AIC/BIC optimization criteria, and Ljung-Box residual diagnostics. Interactive visualizations powered by Plotly."      },
+      "jobMatch": {
+        "title": "JobMatch - Intelligent Job Recommendation Platform",
+        "description": "Full-stack intelligent job recommendation application using AI to match candidates with professional opportunities. Automatic scraping from Indeed, semantic analysis with Sentence Transformers, multi-criteria scoring system (skills, location, salary, work mode). Stack: Next.js, TypeScript, FastAPI, PostgreSQL, Docker."      }
     },
     "skills": {
       "categories": {
