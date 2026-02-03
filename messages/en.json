@@ -132,7 +132,11 @@
         "description": "Comprehensive time series analysis tool using Python. Implements ARIMA and SARIMA models with stationarity tests (ADF, KPSS), AIC/BIC optimization criteria, and Ljung-Box residual diagnostics. Interactive visualizations powered by Plotly."      },
       "jobMatch": {
         "title": "JobMatch - Intelligent Job Recommendation Platform",
-        "description": "Full-stack intelligent job recommendation application using AI to match candidates with professional opportunities. Automatic scraping from Indeed, semantic analysis with Sentence Transformers, multi-criteria scoring system (skills, location, salary, work mode). Stack: Next.js, TypeScript, FastAPI, PostgreSQL, Docker."      }
+        "description": "Full-stack intelligent job recommendation application using AI to match candidates with professional opportunities. Automatic scraping from Indeed, semantic analysis with Sentence Transformers, multi-criteria scoring system (skills, location, salary, work mode). Stack: Next.js, TypeScript, FastAPI, PostgreSQL, Docker."      },
+      "microservicesSpringBoot": {
+        "title": "Spring Boot Microservices Platform",
+        "description": "Complete distributed microservices architecture with Spring Cloud. Implements Service Discovery (Eureka), Centralized Configuration, API Gateway, asynchronous messaging (Kafka), and distributed databases. Management of books, users, loans, and notifications with Docker containerization."
+      }
     },
     "skills": {
       "categories": {

@@ -134,6 +134,10 @@
       "jobMatch": {
         "title": "JobMatch - Plateforme de Recommandation d'Emplois",
         "description": "Application full-stack de recommandation d'emplois intelligente utilisant l'IA pour matcher les candidats avec les opportunités professionnelles. Scraping automatique depuis Indeed, analyse sémantique avec Sentence Transformers, système de scoring multi-critères (compétences, localisation, salaire, mode de travail). Stack : Next.js, TypeScript, FastAPI, PostgreSQL, Docker."
+      },
+      "microservicesSpringBoot": {
+        "title": "Plateforme de Microservices Spring Boot",
+        "description": "Architecture complète de microservices distribués avec Spring Cloud. Implémente Service Discovery (Eureka), Configuration centralisée, API Gateway, messaging asynchrone (Kafka) et bases de données distribuées. Gestion de livres, utilisateurs, emprunts et notifications avec conteneurisation Docker."
       }
     },
     "skills": {
@@ -203,5 +207,3 @@
     }
   }
 }
-
-

@@ -38,6 +38,14 @@ export const projects = [
     githubUrl: "https://github.com/xxxmed/Gestion-de-Stock-Fournisseurs"
   },
   {
+  titleKey: "Data.projects.microservicesSpringBoot.title",
+  descriptionKey: "Data.projects.microservicesSpringBoot.description",
+  image: "/images/project-microservices.png",
+  technologies: ["Java", "Spring Boot", "Spring Cloud", "MySQL", "Apache Kafka", "Docker", "Maven"],
+  githubUrl: "https://github.com/xxxmed/MicroServices-SpringBoot"
+}
+,
+  {
     titleKey: "Data.projects.timeSeriesAnalysis.title",
     descriptionKey: "Data.projects.timeSeriesAnalysis.description",
     image: "/images/project-timeseries.png",
