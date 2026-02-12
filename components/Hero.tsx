@@ -12,7 +12,7 @@ export default function Hero() {
 
   switch (locale) {
     case 'fr':
-      cvHref = '/cv/AhmedRajiCV_fr.pdf';
+      cvHref = '/cv/AhmedRajiCv_fr.pdf';
       break;
     case 'en':
       cvHref = '/cv/AhmedRajiCV_en.pdf';
@@ -21,7 +21,7 @@ export default function Hero() {
       cvHref = '/cv/AhmedRajiCV_en.pdf';
       break;
     default:
-      cvHref = '/cv/AhmedRajiCV_fr.pdf';
+      cvHref = '/cv/AhmedRajiCv_fr.pdf';
       break;
   }
   return (
