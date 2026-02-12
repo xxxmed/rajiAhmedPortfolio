@@ -11,10 +11,13 @@ export default function Hero() {
   let cvHref = '';
 
   switch (locale) {
-    case 'ar':
+    case 'fr':
       cvHref = '/cv/AhmedRajiCV_fr.pdf';
       break;
     case 'en':
+      cvHref = '/cv/AhmedRajiCV_en.pdf';
+      break;
+    case 'ar':
       cvHref = '/cv/AhmedRajiCV_en.pdf';
       break;
     default:
