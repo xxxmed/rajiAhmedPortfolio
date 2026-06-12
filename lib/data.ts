@@ -161,14 +161,16 @@ export const experiences = [
     companyKey: "Data.experiences.backend.company",
     periodKey: "Data.experiences.backend.period",
     descriptionKey: "Data.experiences.backend.description",
-    technologies: ["Node.js", "Express.js", "MongoDB", "GitHub Actions", "Jest"]
+    technologies: ["Node.js", "Express.js", "MongoDB", "GitHub Actions", "Jest"],
+    companyLogo: "/logos/ghaythapp-logo.png"
   },
   {
     titleKey: "Data.experiences.dataIA.title",
     companyKey: "Data.experiences.dataIA.company",
     periodKey: "Data.experiences.dataIA.period",
     descriptionKey: "Data.experiences.dataIA.description",
-    technologies: ["Python", "PyTorch", "UNet 3D", "YAML", "NIfTI"]
+    technologies: ["Python", "PyTorch", "UNet 3D", "YAML", "NIfTI"],
+    companyLogo: "/logos/3d-smart-factory-logo.png"
   }
 ]
 

@@ -12,16 +12,16 @@ export default function Hero() {
 
   switch (locale) {
     case 'fr':
-      cvHref = '/cv/AhmedRajiCv_fr.pdf';
+      cvHref = '/cv/ahmed_raji.pdf';
       break;
     case 'en':
-      cvHref = '/cv/AhmedRajiCV_en.pdf';
+      cvHref = '/cv/ahmed_raji_eng.pdf';
       break;
     case 'ar':
-      cvHref = '/cv/AhmedRajiCV_en.pdf';
+      cvHref = '/cv/ahmed_raji_eng.pdf';
       break;
     default:
-      cvHref = '/cv/AhmedRajiCv_fr.pdf';
+      cvHref = '/cv/ahmed_raji.pdf';
       break;
   }
   return (

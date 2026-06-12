@@ -19,17 +19,17 @@
   },
   "Hero": {
     "title": "Ahmed Raji",
-    "subtitle": "Data & Software Engineering student specializing in Full Stack Development, ERP Integration (Odoo/SAP), Data Pipelines, and CI/CD Automation. Currently seeking a 4-6 months final internship (PFE) in Software Development, ERP, or Data Engineering.",
+    "subtitle": "Data & AI Engineer focused on building intelligent, scalable, and data-driven applications. I specialize in software engineering, data systems, and machine learning to solve real-world problems.",
     "viewProjects": "View my projects",
     "downloadCv": "Download CV",
-    "imageAlt": "Ahmed Raji - Software Engineer",
+    "imageAlt": "Ahmed Raji - Data & AI Engineer",
     "badgeTitle": "Available for",
-    "badgeSubtitle": "Internship"
+    "badgeSubtitle": "Full-time Position (CDI/CDD/Freelance)"
   },
   "Footer": {
     "name": "Ahmed Raji",
     "copyright": "All rights reserved",
-    "tagline": "Full Stack Developer specializing in Backend, ERP (Odoo/SAP), Data Pipelines, and CI/CD.",
+    "tagline": "Data & AI Engineer focused on building intelligent, scalable, and data-driven applications.",
     "quickLinks": "Quick links",
     "links": {
       "about": "About",
@@ -152,12 +152,12 @@
     },
     "personalInfo": {
       "name": "Ahmed Raji",
-      "title": "Data & Software Engineering Student",
-      "bio": "Final-year Data & Software Engineering student at INSEA. Passionate about backend development (Java/Spring Boot, Node.js, Python), software testing (unit, integration, REST API validation), ERP integration (Odoo, SAP), and building Data Pipelines (ETL, data processing). I focus on code quality, backend service reliability, and CI/CD automation. Currently seeking a 4-6 months internship in software development, ERP, or Data Engineering."
+      "title": "Data & AI Engineer",
+      "bio": "I am a Data & AI Engineer focused on building intelligent, scalable, and data-driven applications.\n\nMy work combines software engineering, data systems, and machine learning to solve real-world problems. I have experience developing full-stack platforms, ETL pipelines, and AI models, as well as working on enterprise solutions such as ERP systems.\n\n What I Do:\n- Design data pipelines and analytics systems\n- Build AI/ML models and intelligent applications\n- Develop scalable backend and full-stack systems\n- Work with enterprise tools (Odoo, ERP workflows)\n\nI am currently looking for a Data / AI / Software Engineering opportunity, and I am open to collaborations and technical discussions."
     },
     "experiences": {
       "backend": {
-        "title": "Backend Developer",
+        "title": "Full-Stack Developer",
         "company": "GhaythApp",
         "period": "August 2025 - October 2025",
         "description": "Development and maintenance of a web platform with Node.js and Express.js. Implementation of automated tests, development of new features (online payments, dashboards), and CI/CD configuration with GitHub Actions. MongoDB optimization and backend performance improvement."
