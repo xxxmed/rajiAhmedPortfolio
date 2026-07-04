@@ -285,7 +285,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Email**: araji@insea.ac.ma
 - **LinkedIn**: [Ahmed Raji](https://linkedin.com/in/ahmed-raji)
 - **GitHub**: [xxxmed](https://github.com/xxxmed)
-- **Website**: [Portfolio](https://rajiahmedportfolio.vercel.app)
+- **Website**: [Portfolio](https://rajiahmed-portfolio.vercel.app)
 
 ---
 
