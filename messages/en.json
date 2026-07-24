@@ -156,6 +156,12 @@
       "bio": "I am a Data & AI Engineer focused on building intelligent, scalable, and data-driven applications.\n\nMy work combines software engineering, data systems, and machine learning to solve real-world problems. I have experience developing full-stack platforms, ETL pipelines, and AI models, as well as working on enterprise solutions such as ERP systems.\n\n What I Do:\n- Design data pipelines and analytics systems\n- Build AI/ML models and intelligent applications\n- Develop scalable backend and full-stack systems\n- Work with enterprise tools (Odoo, ERP workflows)\n\nI am currently looking for a Data / AI / Software Engineering opportunity, and I am open to collaborations and technical discussions."
     },
     "experiences": {
+      "ocpSolutions": {
+        "title": "Consultant Intern",
+        "company": "OCP Solutions",
+        "period": "February 2026 - Present",
+        "description": "Participation in defining the technical architecture as part of a real project with the OCP Group client.\nContribution to the development of technical solutions tailored to business needs, working as part of a team.\nContribute to the development of an e-learning platform using generative AI."
+      },
       "backend": {
         "title": "Full-Stack Developer",
         "company": "GhaythApp",

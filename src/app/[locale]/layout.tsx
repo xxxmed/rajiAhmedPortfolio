@@ -26,9 +26,10 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
   const messages = await getMessages({locale});
+  const isArabic = locale === 'ar';
 
   return (
-    <html lang={locale} >
+    <html lang={locale} dir={isArabic ? 'rtl' : 'ltr'}>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}

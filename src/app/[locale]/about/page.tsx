@@ -149,12 +149,12 @@ export default async function About({ params }: Props) {
                     </h3>
                     <div className="flex items-center gap-3">
                       {exp.companyLogo ? (
-                        <div className="w-10 h-10 relative flex-shrink-0 bg-white rounded-lg border border-gray-100 p-1 flex items-center justify-center">
+                        <div className="w-15 h-15 relative flex-shrink-0 bg-white rounded-lg border border-gray-100 p-1 flex items-center justify-center">
                           <Image
                             src={exp.companyLogo}
                             alt={t(exp.companyKey)}
-                            width={40}
-                            height={40}
+                            width={80}
+                            height={80}
                             className="object-contain"
                           />
                         </div>

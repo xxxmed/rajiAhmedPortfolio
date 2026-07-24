@@ -157,6 +157,14 @@ export const personalInfo = {
 // Expériences professionnelles
 export const experiences = [
   {
+    titleKey: "Data.experiences.ocpSolutions.title",
+    companyKey: "Data.experiences.ocpSolutions.company",
+    periodKey: "Data.experiences.ocpSolutions.period",
+    descriptionKey: "Data.experiences.ocpSolutions.description",
+    technologies: ["Fluid Mechanics", "Data Analyst", "Data Science", "Spring Boot", "Next.js", "React", "Python","FastAPI", "AI", "LangGraph", "LangChain"],
+    companyLogo: "/logos/logo-ocp-solutions.png"
+  },
+  {
     titleKey: "Data.experiences.backend.title",
     companyKey: "Data.experiences.backend.company",
     periodKey: "Data.experiences.backend.period",
